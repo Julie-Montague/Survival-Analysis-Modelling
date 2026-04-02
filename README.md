@@ -35,7 +35,7 @@ Key interpretation:
 - Visual outputs support better understanding of borrower risk dynamics  
 
 ## Presentation (Visualization Output)
-The full analysis and visual results are presented in the slides below: ![https://github.com/Julie-Montague/Survival-Analysis-Modelling/blob/main/survival_analysis_report_PPT.pdf]
+The full analysis and visual results are presented in the slides below: ![Presentation Slides Link](https://github.com/Julie-Montague/Survival-Analysis-Modelling/blob/main/survival_analysis_report_PPT.pdf)
 
 The presentation includes:
 - Model comparison visuals
