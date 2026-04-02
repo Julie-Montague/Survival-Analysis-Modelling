@@ -19,7 +19,7 @@ These findings support survival modelling as a practical framework for early-def
 
 ## Tech Stack
 - Python (pandas, numpy, sklearn)
-- Survival Analysis (Cox PH, Random Survival Forest)
+- Survival Analysis Models (Cox PH, Random Survival Forest)
 - Data Visualization (Python, Power BI)
 
 ## Visualization & Interpretation
