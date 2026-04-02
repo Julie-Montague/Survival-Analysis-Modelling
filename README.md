@@ -2,7 +2,9 @@
 **Data Source** : https://www.kaggle.com/datasets/adarshsng/lending-club-loan-data-csv?select=loan.csv
 
 ## Project Overview
-Credit risk is often considered a binary classification task where the target variable is to predict who will default. However, in real cases, decisions depend on predicting when default will happen allowing business to account for customers who are yet to default by the end of the observation time (censoring). This research benchmarks an interpretable cox proportional hazard model against a Random Survival Forest model under a time based train-test split. The results show moderate discrimination (C-index 0.67 Cox vs 0.66 RSF) and strong early targeting value (top-10% lift ≈1.87× at 12 months for Cox; ≈1.98× for RSF), while calibration worsens as the horizon lengthens. These findings support survival modelling as a practical framework for early-default targeting, while highlighting the need for horizon-specific calibration for long-run PD estimation.
+Credit risk is often considered a binary classification task where the target variable is to predict who will default. However, in real cases, decisions depend on predicting when default will happen allowing business to account for customers who are yet to default by the end of the observation time (censoring). 
+This research benchmarks an interpretable cox proportional hazard model against a Random Survival Forest model under a time based train-test split. The results show moderate discrimination (C-index 0.67 Cox vs 0.66 RSF) and strong early targeting value (top-10% lift ≈1.87× at 12 months for Cox; ≈1.98× for RSF), while calibration worsens as the horizon lengthens. 
+These findings support survival modelling as a practical framework for early-default targeting, while highlighting the need for horizon-specific calibration for long-run PD estimation.
 
 ## Project Objectives
 - Analyze borrower default risk over time
